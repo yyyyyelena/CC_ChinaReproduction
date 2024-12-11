@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/yp5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleMain.css">
+    <meta charset="utf-8" />
+    <title>MotherLand, Mother Land</title>
+    <script src="https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js"></script>
+  </head>
+  <body>
+
+    <!-- <main> -->
+    <script src="sketch.js"></script>
+    <button id="navigateButton">timeline</button>
+    <!-- </main> -->
+
+    <script>
+      document.getElementById("navigateButton").addEventListener("click", function() {
+        window.location.href = "timeline.html";
+      });
+    </script>
+  </body>
+</html>
